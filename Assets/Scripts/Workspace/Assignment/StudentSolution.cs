@@ -15,8 +15,7 @@ namespace Assignment
             int target = 90;
             int index = -1;
 
-            // Your code here ...
-            // ...
+
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] == target)
@@ -47,8 +46,6 @@ namespace Assignment
             int row = -1;
             int col = -1;
 
-            // Your code here ...
-            // ...
             for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
@@ -77,8 +74,6 @@ namespace Assignment
             int left = 0;
             int right = array.Length - 1;
 
-            // Your code here ...
-            // ...
             while (left <= right)
             {
                 int mid = left + (right - left) / 2;
