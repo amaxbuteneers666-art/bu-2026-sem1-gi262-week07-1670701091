@@ -64,7 +64,19 @@ namespace Assignment
         }
 
         public int[] AS03_FindRange(int[] array, int min, int max)
+        {
+            List<int> result = new List<int>();
 
+            foreach (int num in array)
+            {
+                if (num >= min && num <= max)
+                {
+                    result.Add(num);
+                }
+            }
+
+            return result.ToArray();
+        }
 
         #endregion
 
